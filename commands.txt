@@ -1,0 +1,30 @@
+init 1 0 0
+init 2 0 0
+init 3 0 0
+init 4 0 0
+init 5 0 0
+init 6 0 0
+init 7 0 0
+init 8 0 0
+init 9 0 0
+init 10 0 0
+compas 1 0 0
+compas 2 1 0
+compas 3 2 0
+compas 4 3 0
+compas 5 4 0
+compas 6 5 0
+compas 7 6 0
+compas 8 7 0
+compas 9 8 0
+compas 10 9 0
+wait 1
+capture
+destroy 2
+destroy 7
+wait 1
+capture
+destroy 5
+destroy 9
+wait 1
+intruder
